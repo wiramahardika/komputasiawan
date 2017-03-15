@@ -3,6 +3,8 @@ apt-get update
 apt-get install -y apache2
 sudo apt-get install python-software-properties
 sudo apt-add-repository ppa:ondrej/php
+sudo apt-get update
 sudo apt-get install -y php7.0
+sudo apt-get install -y bind9
 sudo apt get update
 sudo apt-get install -y squid
